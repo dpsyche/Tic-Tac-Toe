@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <style>
+      h1{text-algin:center;color:red;}
+      h2{text-algin:left;}
+      input[type=submit]{
+        width:10em;
+        font-size:18;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create Account</h1>
+    <h2>
+      <form name="form1" method="post" action="../lib/create_user.php">
+	username: <input type="text" name="uname"><br>
+	email: <input type="text" name="email"><br>
+	password: <input type="password" name="pwd"><br>
+	retype password: <input type="password" name="pwd_conf"><br>
+	<input type="submit" name="create_account" value="create Account" >
+      </form>
+    </h2>
+  </body>
+</html>

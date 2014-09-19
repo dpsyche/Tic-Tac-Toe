@@ -1,0 +1,2 @@
+addWin.php?uname //winner uname
+addTie.php?uname

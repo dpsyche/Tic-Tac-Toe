@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <style>
+      h1{text-align:center;}
+      b1{text-align:right;}
+      td{font-size:50;}
+    </style>
+    <script src="../lib/jquery-1.10.2.min.js"></script>
+    <script src="server_requests.js"></script>
+    <script src="jquery_stuff.js"></script>
+    <style type="text/css"></style></head>
+  <body style="">
+    <h1>Game Board</h1>
+    <button id="b1" onclick="search()">search for game</button>
+    <p id="search">Found game, please start playing..</p>
+    <p id="start_game"></p>
+    <p id="err">GAME OVER!</p>
+    <p id="uname" style="display: none;">test_user_2</p>
+    <div id="board" style="display: block;">
+      <center>
+	<table border="1" cellspacing="0">
+	  <tbody>
+	    <tr>
+	      <td id="c0" height="100" width="100" align="center" valign="center">X</td>
+	      <td id="c1" height="100" width="100" align="center" valign="center">&nbsp;</td>
+	      <td id="c2" height="100" width="100" align="center" valign="center">O</td>
+	    </tr>
+	    <tr>
+	      <td id="c3" height="100" width="100" align="center" valign="center">X</td>
+	      <td id="c4" height="100" width="100" align="center" valign="center">O</td>
+	      <td id="c5" height="100" width="100" align="center" valign="center">&nbsp;</td>
+            </tr>
+	    <tr>
+	      <td id="c6" height="100" width="100" align="center" valign="center">X</td>
+	      <td id="c7" height="100" width="100" align="center" valign="center">&nbsp;</td>
+	      <td id="c8" height="100" width="100" align="center" valign="center">&nbsp;</td>
+            </tr>
+	  </tbody>
+	</table>
+      </center>
+    </div>
+  </body>
+</html>
